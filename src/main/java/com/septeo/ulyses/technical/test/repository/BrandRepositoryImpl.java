@@ -27,6 +27,12 @@ public class BrandRepositoryImpl implements BrandRepository {
     public List<Brand> findAll() {
         String stringQuery = "SELECT b FROM Brand b";
         Query query = entityManager.createQuery(stringQuery);
+        try {
+            // Simulating a delay to mimic a long-running query just to test cache system, this is not recommended for production code.
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         return query.getResultList();
     }
 
@@ -38,6 +44,12 @@ public class BrandRepositoryImpl implements BrandRepository {
         String stringQuery = "SELECT b FROM Brand b WHERE b.id = :id";
         Query query = entityManager.createQuery(stringQuery);
         query.setParameter("id", id);
+        try {
+            // Simulating a delay to mimic a long-running query just to test cache system, this is not recommended for production code.
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
         try {
             return Optional.of((Brand) query.getSingleResult());

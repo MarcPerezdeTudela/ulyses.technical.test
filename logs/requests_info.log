@@ -1,0 +1,12 @@
+2025-07-17 18:37:13 - GET /api/sales/vehicles/5 - Status: 200 (Duration: 236ms)
+2025-07-17 18:37:15 - GET /api/sales/vehicles/5 - Status: 200 (Duration: 14ms)
+2025-07-17 18:37:17 - GET /api/sales/vehicles/bestSelling - Status: 200 (Duration: 50ms)
+2025-07-17 18:55:16 - GET /api/sales/vehicles/bestSelling - Status: 200 (Duration: 281ms)
+2025-07-17 18:55:21 - GET /api/sales/vehicles/5 - Status: 200 (Duration: 20ms)
+2025-07-17 18:55:41 - GET /api/brands - Status: 200 (Duration: 29ms)
+2025-07-17 18:56:07 - GET /api/brands - Status: 200 (Duration: 267ms)
+2025-07-17 18:57:20 - GET /api/brands - Status: 200 (Duration: 216ms)
+
+!!!
+This file should not be in the repository, but is here for demonstration purposes only.
+!!!

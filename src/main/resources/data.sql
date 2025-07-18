@@ -38,6 +38,12 @@ INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-0
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-08', 15325.75);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 15075.60);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 14825.25);
+-- ADD FOR TESTING PURPOSES
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 14345.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 14825.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 24825.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-09', 34825.25);
+--
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-10', 15375.80);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-10', 15200.45);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-01-11', 14775.30);
@@ -73,6 +79,13 @@ INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 1, '2025-0
 -- Renault Megane (Vehicle ID: 2)
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-01', 15850.75);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-01', 16125.50);
+-- ADD FOR TESTING PURPOSES
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-01', 18125.50);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-02', 16975.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-02', 11210.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-02', 16210.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-03', 16050.60);
+--
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-02', 15975.25);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-02', 16210.80);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 2, '2025-01-03', 16050.60);
@@ -140,7 +153,15 @@ INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-0
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-08', 17325.75);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-09', 17075.60);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-09', 16825.25);
+-- ADD FOR TESTING PURPOSES
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-10', 17375.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-10', 17379.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-07', 17275.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-07', 17150.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-08', 16875.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-06', 17100.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-06', 16925.80);
+--
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-10', 17200.45);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-11', 16775.30);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (1, 3, '2025-01-11', 17425.90);
@@ -326,6 +347,83 @@ INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2025-0
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2025-01-03', 20325.45);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2025-01-04', 21875.30);
 
+--
+
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (2, 6, '2028-01-01', 20750.75);
+
 -- Insert Sales for Volkswagen vehicles (50 sales per vehicle, higher price range)
 -- Volkswagen Golf (Vehicle ID: 7)
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 7, '2025-01-01', 23750.75);
@@ -479,3 +577,53 @@ INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-0
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-02', 27650.80);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-03', 26325.45);
 INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-04', 27875.30);
+-- ADD FOR TESTING PURPOSES
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-01', 26750.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-01', 27125.50);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-02', 26975.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-02', 27210.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-03', 27050.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-03', 26890.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-04', 27175.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-04', 27025.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-05', 26950.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-05', 27225.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-06', 27100.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-06', 26925.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-07', 27275.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-07', 27150.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-08', 26875.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-08', 27325.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-09', 27075.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-09', 26825.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-10', 27375.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-10', 27200.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-11', 26775.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-11', 27425.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-12', 27250.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-12', 26725.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-13', 27475.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-13', 27300.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-14', 26675.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-14', 27525.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-15', 27350.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-15', 26625.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-01', 27575.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-02', 27400.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-03', 26575.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-04', 27625.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-05', 27450.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-06', 26525.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-07', 27675.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-08', 27500.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-09', 26475.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-10', 27725.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-11', 27550.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-12', 26425.30);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-13', 27775.90);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-14', 27600.75);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2025-01-15', 26375.60);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2026-01-01', 27825.25);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2026-01-02', 27650.80);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2026-01-03', 26325.45);
+INSERT INTO sales (brand_id, vehicle_id, sale_date, price) VALUES (3, 9, '2026-01-04', 27875.30);

@@ -15,40 +15,40 @@ This repository contains a Spring Boot application with the following structure:
 
 ### What do you need to implement?
 
-1. **Implement Spring Security:**
-   - All **GET** endpoints must remain public (no authentication required).
-   - All **POST**, **PUT**, and **DELETE** endpoints must require authentication and authorization.
+1. **Implement Spring Security:** 🟢
+   - All **GET** endpoints must remain public (no authentication required). 🟢
+   - All **POST**, **PUT**, and **DELETE** endpoints must require authentication and authorization. 🟢
 
-2. **Add the following endpoints to the `SalesController`:**
-   - `GET /api/sales/brands/{brandId}` → Return all sales for a given brand.
-   - `GET /api/sales/vehicles/{vehicleId}` → Return all sales for a given vehicle.
-   - Modify the existing `GET /api/sales` endpoint and add pagination to it.
-     - Each response must return **10 items per page**.
-     - The **page number** must be accepted as an optional query parameter.
-     - If the page number is not provided, the API should return the **first page by default**.
+2. **Add the following endpoints to the `SalesController`:** 🟢
+   - `GET /api/sales/brands/{brandId}` → Return all sales for a given brand. 🟢
+   - `GET /api/sales/vehicles/{vehicleId}` → Return all sales for a given vehicle. 🟢
+   - Modify the existing `GET /api/sales` endpoint and add pagination to it. 🟢
+     - Each response must return **10 items per page**. 🟢
+     - The **page number** must be accepted as an optional query parameter. 🟢
+     - If the page number is not provided, the API should return the **first page by default**. 🟢
 
-3. **Implement a new endpoint in `SalesController`:**
-   - `GET /api/sales/vehicles/bestSelling` → Return the **top 5 best-selling vehicles**.
-   - Allow optional filtering by **start date** and **end date**.
-   - You must retrieve all sales from the database (as currently implemented).
-      - **Do not use** SQL-level sorting, `Collections.sort()`, or any built-in sort utilities.
-      - Implement your **own sorting logic** using Java code, considering performance (imagine millions of records).
+3. **Implement a new endpoint in `SalesController`:** 🟢
+   - `GET /api/sales/vehicles/bestSelling` → Return the **top 5 best-selling vehicles**. 🟢
+   - Allow optional filtering by **start date** and **end date**. 🟢
+   - You must retrieve all sales from the database (as currently implemented). 🟢
+      - **Do not use** SQL-level sorting, `Collections.sort()`, or any built-in sort utilities. 🟢
+      - Implement your **own sorting logic** using Java code, considering performance (imagine millions of records). 🟢
       - You may create additional models or helper classes as needed.
 
-4. **Create a custom filter or interceptor using Spring:**
-   - It must **log all incoming API requests and outgoing responses** to a file.
+4. **Create a custom filter or interceptor using Spring:** 🟢
+   - It must **log all incoming API requests and outgoing responses** to a file. 🟢
    - The log must include:
-      - Request date and time
-      - HTTP method
-      - Request URL
-      - Response status code
-      - Processing time (in milliseconds)
+      - Request date and time 🟢
+      - HTTP method 🟢
+      - Request URL 🟢
+      - Response status code 🟢
+      - Processing time (in milliseconds) 🟢
 
-5. **Implement a caching system for the GET endpoints of Brand**
-   - Check if the data exists in the cache and has not expired.
-   - If it does not exist or has expired, call the supplier.
-   - Update the cache with the new value.
-   - Handle concurrency properly.
+5. **Implement a caching system for the GET endpoints of Brand** 🟢
+   - Check if the data exists in the cache and has not expired. 🟢
+   - If it does not exist or has expired, call the supplier. 🟢
+   - Update the cache with the new value. 🟢
+   - Handle concurrency properly. 🟢
 
 ---
 
@@ -59,3 +59,17 @@ This repository contains a Spring Boot application with the following structure:
 - If there’s something you’re not sure how to do, don’t worry — just give it your best effort.
 - We will carefully review your code and provide feedback as soon as possible.
  
+---
+
+### Final Solution
+
+This is the final solution to the exercise. It includes all the required features and functionalities as specified in the instructions. 
+I just want to add some information:
+- The default user to test the application is:
+  - **Username:** `user`
+  - **Password:** `password`
+- You will notice that you get long response times when you try to access the `/api/brands` GET endpoints. This is because the cache is not yet populated. Once you access the endpoint, the cache will be populated, and subsequent requests will be much faster. I added some delay intentionally to simulate a slow response time for the first request.
+- I added some more sample data to the database to test the best-selling vehicles feature.
+
+
+
